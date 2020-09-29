@@ -20,5 +20,5 @@ jobs:
         - name: runLBTest
           uses: actions/checkout@v2
 
-        - run: .\liquibase --version
+        - run: liquibase\liquibase --version
 
