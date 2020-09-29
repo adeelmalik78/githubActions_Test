@@ -11,17 +11,7 @@ on:
 # events but only for the master branch
 
 jobs:
-
-  pingdev:
-    runs-on: self-hosted
-    steps:
-      - name: pingdevtest
-        uses: actions/checkout@master
  
-      - run: ping devsql01
-      - run: echo $github.repository   
-      - run: echo $github.action_path 
-  
   Liquibasejob:
     runs-on: self-hosted 
    
