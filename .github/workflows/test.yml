@@ -14,7 +14,7 @@ jobs:
  
   Liquibasejob:
     #runs-on: self-hosted 
-    runs-on: linux
+    runs-on: ubuntu-latest
    
     steps:
         - name: runLBTest
