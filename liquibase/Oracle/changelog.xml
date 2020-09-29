@@ -1,0 +1,13 @@
+<databaseChangeLog  
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"  
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"  
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">  
+
+    <property  name="clob.type"  value="clob"  dbms="oracle,postgresql"/>  
+    <property  name="clob.type"  value="longtext"  dbms="mysql"/>  
+    <property  name="table.name"  value="tableA"/>  
+
+    <includeAll  path="sql/"/>  
+</databaseChangeLog>

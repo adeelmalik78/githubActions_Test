@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd
+    http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.1.xsd " changeLogId="2c854bc5-de84-496b-90f6-9bd6d924eeda">
+
+    <changeSet id="1" author="your.name">
+        <createTable tableName="person">
+            <column name="id" type="int">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="name" type="varchar(50)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="address1" type="varchar(50)"/>
+            <column name="address2" type="varchar(50)"/>
+            <column name="city" type="varchar(30)"/>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="2" author="your.name">
+        <createTable tableName="company">
+            <column name="id" type="int">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="name" type="varchar(50)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="address1" type="varchar(50)"/>
+            <column name="address2" type="varchar(50)"/>
+            <column name="city" type="varchar(30)"/>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="3" author="other.dev">
+        <createTable tableName="person3">
+            <column name="country" type="varchar(2)"/>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="4" author="other.dev">
+        <createTable tableName="person4">
+            <column name="country" type="varchar(2)"/>
+        </createTable>
+    </changeSet>
+
+     <changeSet id="5" author="other.dev">
+        <createTable tableName="person5">
+            <column name="country" type="varchar(2)"/>
+        </createTable>
+    </changeSet>
+      <changeSet id="6" author="other.dev">
+        <createTable tableName="person6">
+            <column name="country" type="varchar(2)"/>
+        </createTable>
+    </changeSet>
+      <changeSet id="7" author="other.dev">
+        <createTable tableName="person7">
+            <column name="country" type="varchar(2)"/>
+        </createTable>
+    </changeSet>
+      <changeSet id="8" author="other.dev">
+        <createTable tableName="person8">
+            <column name="country" type="varchar(2)"/>
+        </createTable>
+    </changeSet>
+      <changeSet id="9" author="other.dev">
+        <createTable tableName="person9">
+            <column name="country" type="varchar(2)"/>
+        </createTable>
+    </changeSet>
+      <changeSet id="10" author="other.dev">
+        <createTable tableName="person10">
+            <column name="country" type="varchar(2)"/>
+        </createTable>
+    </changeSet>
+      <changeSet id="11" author="other.dev">
+        <createTable tableName="person11">
+            <column name="country" type="varchar(2)"/>
+        </createTable>
+    </changeSet>
+      <changeSet id="12" author="other.dev">
+        <createTable tableName="person12">
+            <column name="country" type="varchar(2)"/>
+        </createTable>
+    </changeSet>
+      <changeSet id="13" author="other.dev">
+        <createTable tableName="person13">
+            <column name="country" type="varchar(2)"/>
+        </createTable>
+    </changeSet>
+      <changeSet id="14" author="other.dev">
+        <createTable tableName="person14">
+            <column name="country" type="varchar(2)"/>
+        </createTable>
+    </changeSet>
+      <changeSet id="15" author="other.dev">
+        <createTable tableName="person15">
+            <column name="country" type="varchar(2)"/>
+        </createTable>
+    </changeSet>
+      <changeSet id="16" author="other.dev">
+        <createTable tableName="person16">
+            <column name="country" type="varchar(2)"/>
+        </createTable>
+    </changeSet>
+      <changeSet id="17" author="other.dev">
+        <createTable tableName="person17">
+            <column name="country" type="varchar(2)"/>
+        </createTable>
+    </changeSet>
+      <changeSet id="18" author="other.dev">
+        <createTable tableName="person18">
+            <column name="country" type="varchar(2)"/>
+        </createTable>
+    </changeSet>
+      <changeSet id="19" author="other.dev">
+        <createTable tableName="person19">
+            <column name="country" type="varchar(2)"/>
+        </createTable>
+    </changeSet>
+         
+</databaseChangeLog>
