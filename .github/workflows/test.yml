@@ -1,0 +1,33 @@
+
+
+
+# This is a basic workflow to help you get started with Actions
+
+name: BCS-LB-Test
+
+on:
+  workflow_dispatch:
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+
+jobs:
+
+  pingdev:
+    runs-on: self-hosted
+    steps:
+      - name: pingdevtest
+        uses: actions/checkout@master
+ 
+      - run: ping devsql01
+      - run: echo $github.repository   
+      - run: echo $github.action_path 
+  
+  Liquibasejob:
+    runs-on: self-hosted 
+   
+    steps:
+        - name: runLBTest
+          uses: actions/checkout@v2
+
+        - run: .\liquibase --version
+
