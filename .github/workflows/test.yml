@@ -20,5 +20,6 @@ jobs:
         - name: runLBTest
           uses: actions/checkout@v2
 
+        - run: whoami
         - run: ./liquibase/liquibase --version
 
